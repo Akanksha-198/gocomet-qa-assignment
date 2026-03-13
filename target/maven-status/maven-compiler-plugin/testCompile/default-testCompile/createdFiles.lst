@@ -5,5 +5,4 @@ pages\CartPage.class
 pages\HomePage.class
 pages\SearchResultsPage.class
 pages\ProductDetailsPage$CartItemDetail.class
-stepDefinitions\MobileCoverSteps.class
 runner\CucumberTestRunner.class

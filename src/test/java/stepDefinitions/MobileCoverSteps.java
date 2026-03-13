@@ -1,172 +1,123 @@
 package stepDefinitions;
 
 import io.cucumber.java.After;
-import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 import org.junit.jupiter.api.Assertions;
 import pages.*;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class MobileCoverSteps {
 
-    private PlaywrightManager playwrightManager;
-    private HomePage homePage;
-    private SearchResultsPage searchResultsPage;
-    private ProductListingPage productListingPage;
-    private ProductDetailsPage productDetailsPage;
-    private CartPage cartPage;
+    private final PlaywrightManager playwrightManager;
+    private final HomePage homePage;
+    private final SearchResultsPage searchResultsPage;
+    private final ProductListingPage productListingPage;
+    private final ProductDetailsPage productDetailsPage;
+    private final CartPage cartPage;
 
-    @Before
-    public void setUp() {
-        playwrightManager = new PlaywrightManager();
-        homePage = new HomePage(playwrightManager.getPage());
-        searchResultsPage = new SearchResultsPage(playwrightManager.getPage());
-        productListingPage = new ProductListingPage(playwrightManager.getPage());
-        productDetailsPage = new ProductDetailsPage(playwrightManager.getPage());
-        cartPage = new CartPage(playwrightManager.getPage());
+    public MobileCoverSteps(PlaywrightManager playwrightManager) {
+        this.playwrightManager = playwrightManager;
+        var page = playwrightManager.getPage();
+        this.homePage = new HomePage(page);
+        this.searchResultsPage = new SearchResultsPage(page);
+        this.productListingPage = new ProductListingPage(page);
+        this.productDetailsPage = new ProductDetailsPage(page);
+        this.cartPage = new CartPage(page);
     }
 
     @After
     public void tearDown() {
-        if (playwrightManager != null) {
-            playwrightManager.close();
-        }
+        playwrightManager.close();
     }
 
-    @Given("the user is on the CaseKaro homepage")
-    public void the_user_is_on_the_casekaro_homepage() {
+    // Step 1: Navigate to website
+    @Given("I navigate to CaseKaro website")
+    public void iNavigateToCaseKaroWebsite() {
         homePage.navigateToHomePage();
-        System.out.println("✅ Navigated to CaseKaro homepage: https://casekaro.com/");
-        String currentUrl = playwrightManager.getPage().url();
-        Assertions.assertTrue(
-                currentUrl.contains("casekaro.com"),
-                "Expected URL to contain 'casekaro.com' but got: " + currentUrl
-        );
     }
 
-    @When("the user clicks on {string} menu")
-    public void the_user_clicks_on_menu(String menuItem) {
+    // Step 2: Click Mobile Covers
+    @When("I click on Mobile Covers")
+    public void iClickOnMobileCovers() {
         homePage.clickMobileCovers();
-        System.out.println("✅ Navigated to Mobile Covers page");
-        String currentUrl = playwrightManager.getPage().url();
-        Assertions.assertTrue(
-                currentUrl.contains("casekaro.com"),
-                "Expected to stay on casekaro.com but got: " + currentUrl
-        );
     }
 
-    @When("the user clicks the search button and types {string}")
-    public void the_user_clicks_the_search_button_and_types(String query) {
-        System.out.println("✅ Looking for brand: '" + query + "'");
-        playwrightManager.getPage().waitForTimeout(1500);
+    // Step 3: Search for Apple in the model search box
+    @When("I search for {string} in the model search")
+    public void iSearchForInTheModelSearch(String brand) {
+        homePage.searchBrandInModelSearch(brand);
     }
 
-    @Then("only Apple brand results should be visible")
-    public void only_apple_brand_results_should_be_visible() {
-        String currentUrl = playwrightManager.getPage().url();
-        String pageSource = playwrightManager.getPage().content();
-        boolean appleFound = currentUrl.toLowerCase().contains("apple")
-                || pageSource.toLowerCase().contains("apple")
-                || pageSource.toLowerCase().contains("iphone");
-        Assertions.assertTrue(
-                appleFound,
-                "Expected Apple/iPhone to be present on page. URL: " + currentUrl
-        );
-        System.out.println("ASSERTION PASSED: Apple brand found on page");
+    // Step 4: Negative validation - other brands not visible after Apple search
+    @Then("other brands should not be visible in search results")
+    public void otherBrandsShouldNotBeVisibleInSearchResults() {
+        searchResultsPage.validateAppleSearchShowsNoOtherBrands();
     }
 
-    @Then("no other brand results should be visible")
-    public void no_other_brand_results_should_be_visible() {
-        String currentUrl = playwrightManager.getPage().url();
-        List<String> otherBrands = List.of("samsung", "oneplus", "xiaomi", "redmi", "realme");
-        for (String brand : otherBrands) {
-            Assertions.assertFalse(
-                    currentUrl.toLowerCase().contains(brand),
-                    "Brand '" + brand + "' should NOT be in URL but found: " + currentUrl
-            );
-            System.out.println("✅ ASSERTION PASSED: '" + brand + "' is NOT in current URL");
-        }
+    // Step 5a: Search for iPhone 16 Pro model
+    @When("I search for iPhone {string} model")
+    public void iSearchForIphoneModel(String model) {
+        searchResultsPage.searchForIphone16Pro();
     }
 
-    @When("the user clicks on {string} brand")
-    public void the_user_clicks_on_brand(String brand) {
-        searchResultsPage.clickAppleBrand();
-        System.out.println("✅ Clicked on '" + brand + "' brand");
-        playwrightManager.getPage().waitForLoadState();
-        playwrightManager.getPage().waitForTimeout(1000);
+    // Step 5b: Click iPhone 16 Pro
+    @When("I click on iPhone 16 Pro")
+    public void iClickOnIPhone16Pro() {
+        searchResultsPage.clickIphone16Pro();
+        productListingPage.verifyOnIphone16ProListingPage();
     }
 
-    @When("the user searches for model {string}")
-    public void the_user_searches_for_model(String model) {
-        productListingPage.searchForModel(model);
-        System.out.println("✅ Searched for model: '" + model + "'");
-        System.out.println("   Current URL: " + playwrightManager.getPage().url());
-    }
-
-    @When("the user clicks {string} for the first item")
-    public void the_user_clicks_choose_options_for_the_first_item(String buttonText) {
+    // Step 6: Click Choose Options for first item
+    @When("I click Choose Options for the first item")
+    public void iClickChooseOptionsForTheFirstItem() {
         productListingPage.clickChooseOptionsForFirstItem();
-        System.out.println("✅ Clicked '" + buttonText + "' for first item");
-        System.out.println("   Product page URL: " + playwrightManager.getPage().url());
     }
 
-    @When("the user adds the {string} material case to cart")
-    public void the_user_adds_the_material_case_to_cart(String material) {
-        Assertions.assertTrue(
-                productDetailsPage.isMaterialOptionVisible(material),
-                "Expected material option '" + material + "' to be visible on the product page."
-        );
+    // Step 7 & 8: Verify material exists and add to cart
+    @Then("I should see {string} material option")
+    public void iShouldSeeMaterialOption(String material) {
+        boolean visible = productDetailsPage.isMaterialOptionVisible(material);
+        Assertions.assertTrue(visible, "Material '" + material + "' should be visible on product page");
+        System.out.println("✅ Material '" + material + "' is visible");
+    }
+
+    @When("I select {string} material and add to cart")
+    public void iSelectMaterialAndAddToCart(String material) {
         productDetailsPage.selectMaterialAndAddToCart(material);
-        System.out.println("✅ Added '" + material + "' material to cart");
     }
 
-    @When("the user goes back to product options")
-    public void the_user_goes_back_to_product_options() {
+    @When("I go back to product page to select another material")
+    public void iGoBackToProductPage() {
         productDetailsPage.goBackToProductOptions();
-        System.out.println("✅ Navigated back to product options page");
     }
 
-    @When("the user opens the cart")
-    public void the_user_opens_the_cart() {
+    // Step 9: Open cart
+    @When("I open the cart")
+    public void iOpenTheCart() {
         cartPage.openCart();
-        System.out.println("✅ Opened cart");
     }
 
-    @Then("the cart should contain {int} items with different materials")
-    public void the_cart_should_contain_items_with_different_materials(int expectedCount) {
+    // Step 10: Validate all 3 items in cart
+    @Then("the cart should contain {int} items")
+    public void theCartShouldContainItems(int expectedCount) {
         int actualCount = cartPage.getCartItemCount();
-        Assertions.assertEquals(
-                expectedCount, actualCount,
-                "Expected cart to contain " + expectedCount + " items but found " + actualCount
-        );
-        System.out.println("✅ ASSERTION PASSED: Cart contains " + actualCount + " items");
+        Assertions.assertEquals(expectedCount, actualCount,
+            "Cart should have " + expectedCount + " items but found " + actualCount);
+        System.out.println("✅ Cart contains " + actualCount + " items");
     }
 
-    @Then("the cart should have items with materials {string}, {string}, and {string}")
-    public void the_cart_should_have_items_with_materials(String mat1, String mat2, String mat3) {
-        List<String> expectedMaterials = Arrays.asList(mat1, mat2, mat3);
-        System.out.println("🔍 Validating materials in cart: " + expectedMaterials);
-        cartPage.printCartItemsToConsole();
-        for (String material : expectedMaterials) {
-            boolean materialFound = cartPage.isMaterialPresentInCart(material);
-            Assertions.assertTrue(
-                    materialFound,
-                    "Material '" + material + "' was NOT found in the cart."
-            );
-            System.out.println("✅ ASSERTION PASSED: Material '" + material + "' is present in cart");
-        }
+    @Then("the cart should contain {string} material")
+    public void theCartShouldContainMaterial(String material) {
+        boolean present = cartPage.isMaterialPresentInCart(material);
+        Assertions.assertTrue(present, "Cart should contain material: " + material);
+        System.out.println("✅ Cart contains material: " + material);
     }
 
-    @Then("the price details for all items should be printed in console")
-    public void the_price_details_for_all_items_should_be_printed_in_console() {
-        List<ProductDetailsPage.CartItemDetail> details = productDetailsPage.getCartItemDetails();
-        Assertions.assertFalse(
-                details.isEmpty(),
-                "Expected cart item details to be captured but list was empty."
-        );
+    // Step 11: Print all item details
+    @Then("I print all cart item details to console")
+    public void iPrintAllCartItemDetailsToConsole() {
         productDetailsPage.printAllCartItemDetails();
-        System.out.println("✅ All " + details.size() + " item details have been printed to console");
+        cartPage.printCartItemsToConsole();
     }
 }

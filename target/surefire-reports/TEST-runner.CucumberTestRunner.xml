@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.CucumberTestRunner" time="105.573" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.CucumberTestRunner" time="40.799" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\Akanksha\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest\bin"/>
-    <property name="sun.java.command" value="C:\Users\Akanksha\AppData\Local\Temp\surefire12678121117403400087\surefirebooter-20260313165236276_3.jar C:\Users\Akanksha\AppData\Local\Temp\surefire12678121117403400087 2026-03-13T16-52-35_763-jvmRun1 surefire-20260313165236276_1tmp surefire_0-20260313165236276_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Akanksha\AppData\Local\Temp\surefire14041855179466032146\surefirebooter-20260313173623130_3.jar C:\Users\Akanksha\AppData\Local\Temp\surefire14041855179466032146 2026-03-13T17-36-22_412-jvmRun1 surefire-20260313173623130_1tmp surefire_0-20260313173623130_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Akanksha\Downloads\gocomet-qa-assignment\gocomet-qa\target\test-classes;C:\Users\Akanksha\Downloads\gocomet-qa-assignment\gocomet-qa\target\classes;C:\Users\Akanksha\.m2\repository\com\microsoft\playwright\playwright\1.44.0\playwright-1.44.0.jar;C:\Users\Akanksha\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Akanksha\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Akanksha\.m2\repository\com\microsoft\playwright\driver\1.44.0\driver-1.44.0.jar;C:\Users\Akanksha\.m2\repository\com\microsoft\playwright\driver-bundle\1.44.0\driver-bundle-1.44.0.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Akanksha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.18.0\cucumber-junit-platform-engine-7.18.0.jar;C:\Users\Akanksha\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\Akanksha\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Akanksha\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Akanksha\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\Akanksha\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\Akanksha\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\Akanksha\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\Akanksha\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\Akanksha\.m2\repository\io\cucumber\cucumber-picocontainer\7.18.0\cucumber-picocontainer-7.18.0.jar;C:\Users\Akanksha\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Akanksha\AppData\Local\Temp\surefire12678121117403400087\surefirebooter-20260313165236276_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Akanksha\AppData\Local\Temp\surefire14041855179466032146\surefirebooter-20260313173623130_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS"/>
@@ -60,500 +60,85 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="Search for Apple brand and add iPhone 16 Pro case in all 3 materials to cart" classname="Mobile Cover Shopping on CaseKaro" time="104.482">
-    <error message="Error {&#10;  message=&apos;Timeout 30000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 30000ms exceeded.&#10;    at ProgressController.run (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\progress.js:78:26)&#10;    at Frame.click (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\frames.js:1007:23)&#10;    at FrameDispatcher.click (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\dispatchers\frameDispatcher.js:158:30)&#10;    at FrameDispatcher._handleCommand (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;- waiting for locator(&quot;label:has-text(&apos;Hard&apos;), input[value=&apos;Hard&apos;], .variant-pills__option:has-text(&apos;Hard&apos;), button:has-text(&apos;Hard&apos;)&quot;).first()&#10;-   locator resolved to &lt;input checked type=&quot;radio&quot; value=&quot;Hard&quot; name=&quot;Material…/&gt;&#10;- attempting click action&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #1&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #2&#10;-   waiting 20ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #3&#10;-   waiting 100ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #4&#10;-   waiting 100ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #5&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #6&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #7&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #8&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #9&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #10&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #11&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #12&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #13&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #14&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #15&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #16&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #17&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not stable&#10;- retrying click action, attempt #18&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #19&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #20&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #21&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #22&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #23&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #24&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #25&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #26&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #27&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and stable&#10;- element was detached from the DOM, retrying&#10;-   locator resolved to &lt;input checked type=&quot;radio&quot; value=&quot;Hard&quot; name=&quot;Material…/&gt;&#10;- attempting click action&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is not stable&#10;- retrying click action, attempt #1&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #2&#10;-   waiting 20ms&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   &lt;fieldset class=&quot;js product-form__input product-form__inpu…&gt;…&lt;/fieldset&gt; intercepts pointer events&#10;- retrying click action, attempt #3&#10;-   waiting 100ms&#10;-   waiting for element to be visible, enabled and stable&#10;- element was detached from the DOM, retrying&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
-Error {
-  message='Timeout 30000ms exceeded.
-  name='TimeoutError
-  stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\progress.js:78:26)
-    at Frame.click (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\frames.js:1007:23)
-    at FrameDispatcher.click (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\dispatchers\frameDispatcher.js:158:30)
-    at FrameDispatcher._handleCommand (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
-- waiting for locator("label:has-text('Hard'), input[value='Hard'], .variant-pills__option:has-text('Hard'), button:has-text('Hard')").first()
--   locator resolved to <input checked type="radio" value="Hard" name="Material…/>
-- attempting click action
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #1
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #2
--   waiting 20ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #3
--   waiting 100ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #4
--   waiting 100ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #5
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #6
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #7
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #8
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #9
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #10
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #11
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #12
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #13
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #14
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #15
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #16
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #17
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is not stable
-- retrying click action, attempt #18
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #19
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #20
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #21
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #22
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #23
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #24
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #25
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #26
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #27
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
-- element was detached from the DOM, retrying
--   locator resolved to <input checked type="radio" value="Hard" name="Material…/>
-- attempting click action
--   waiting for element to be visible, enabled and stable
--   element is not stable
-- retrying click action, attempt #1
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #2
--   waiting 20ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #3
--   waiting 100ms
--   waiting for element to be visible, enabled and stable
-- element was detached from the DOM, retrying
+  <testcase name="Search for Apple brand and add iPhone 16 Pro case in all 3 materials to cart" classname="Mobile Cover Shopping on CaseKaro" time="39.709">
+    <error message="The step &apos;the user is on the CaseKaro homepage&apos; and 16 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the user is on the CaseKaro homepage&quot;)&#10;public void the_user_is_on_the_case_karo_homepage() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the user clicks on {string} menu&quot;)&#10;public void the_user_clicks_on_menu(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the user clicks the search button and types {string}&quot;)&#10;public void the_user_clicks_the_search_button_and_types(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;only Apple brand results should be visible&quot;)&#10;public void only_apple_brand_results_should_be_visible() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;no other brand results should be visible&quot;)&#10;public void no_other_brand_results_should_be_visible() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the user clicks on {string} brand&quot;)&#10;public void the_user_clicks_on_brand(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the user searches for model {string}&quot;)&#10;public void the_user_searches_for_model(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the user clicks {string} for the first item&quot;)&#10;public void the_user_clicks_for_the_first_item(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the user adds the {string} material case to cart&quot;)&#10;public void the_user_adds_the_material_case_to_cart(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the user goes back to product options&quot;)&#10;public void the_user_goes_back_to_product_options() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the user opens the cart&quot;)&#10;public void the_user_opens_the_cart() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the cart should contain {int} items with different materials&quot;)&#10;public void the_cart_should_contain_items_with_different_materials(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the cart should have items with materials {string}, {string}, and {string}&quot;)&#10;public void the_cart_should_have_items_with_materials_and(String string, String string2, String string3) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the price details for all items should be printed in console&quot;)&#10;public void the_price_details_for_all_items_should_be_printed_in_console() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the user is on the CaseKaro homepage' and 16 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
 
-	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
-	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
-	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
-	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
-	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
-	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
-	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
-	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
-	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:160)
-	at com.microsoft.playwright.Locator.click(Locator.java:2468)
-	at pages.ProductDetailsPage.selectMaterialAndAddToCart(ProductDetailsPage.java:53)
-	at stepDefinitions.MobileCoverSteps.the_user_adds_the_material_case_to_cart(MobileCoverSteps.java:121)
-	at ✽.the user adds the "Hard" material case to cart(classpath:features/MobileCoverShopping.feature:18)
-Caused by: com.microsoft.playwright.TimeoutError: Error {
-  message='Timeout 30000ms exceeded.
-  name='TimeoutError
-  stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\progress.js:78:26)
-    at Frame.click (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\frames.js:1007:23)
-    at FrameDispatcher.click (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\dispatchers\frameDispatcher.js:158:30)
-    at FrameDispatcher._handleCommand (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\dispatchers\dispatcher.js:361:39)
+@Given("the user is on the CaseKaro homepage")
+public void the_user_is_on_the_case_karo_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
 }
-Call log:
-- waiting for locator("label:has-text('Hard'), input[value='Hard'], .variant-pills__option:has-text('Hard'), button:has-text('Hard')").first()
--   locator resolved to <input checked type="radio" value="Hard" name="Material…/>
-- attempting click action
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #1
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #2
--   waiting 20ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #3
--   waiting 100ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #4
--   waiting 100ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #5
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #6
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #7
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #8
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #9
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #10
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #11
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #12
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #13
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #14
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #15
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #16
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #17
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is not stable
-- retrying click action, attempt #18
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #19
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #20
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #21
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #22
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #23
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #24
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #25
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #26
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #27
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
-- element was detached from the DOM, retrying
--   locator resolved to <input checked type="radio" value="Hard" name="Material…/>
-- attempting click action
--   waiting for element to be visible, enabled and stable
--   element is not stable
-- retrying click action, attempt #1
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #2
--   waiting 20ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #3
--   waiting 100ms
--   waiting for element to be visible, enabled and stable
-- element was detached from the DOM, retrying
+@When("the user clicks on {string} menu")
+public void the_user_clicks_on_menu(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks the search button and types {string}")
+public void the_user_clicks_the_search_button_and_types(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("only Apple brand results should be visible")
+public void only_apple_brand_results_should_be_visible() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("no other brand results should be visible")
+public void no_other_brand_results_should_be_visible() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks on {string} brand")
+public void the_user_clicks_on_brand(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user searches for model {string}")
+public void the_user_searches_for_model(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user clicks {string} for the first item")
+public void the_user_clicks_for_the_first_item(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user adds the {string} material case to cart")
+public void the_user_adds_the_material_case_to_cart(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user goes back to product options")
+public void the_user_goes_back_to_product_options() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user opens the cart")
+public void the_user_opens_the_cart() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the cart should contain {int} items with different materials")
+public void the_cart_should_contain_items_with_different_materials(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the cart should have items with materials {string}, {string}, and {string}")
+public void the_cart_should_have_items_with_materials_and(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the price details for all items should be printed in console")
+public void the_price_details_for_all_items_should_be_printed_in_console() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
 
-	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
-	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
-	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
-	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
-	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
-	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
-	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
-	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
-	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
-	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:160)
-	at com.microsoft.playwright.Locator.click(Locator.java:2468)
-	at pages.ProductDetailsPage.selectMaterialAndAddToCart(ProductDetailsPage.java:53)
-	at stepDefinitions.MobileCoverSteps.the_user_adds_the_material_case_to_cart(MobileCoverSteps.java:121)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112)
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.junit.platform.engine.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:22)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
 	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
 	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
 	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
@@ -565,606 +150,23 @@ Call log:
 ]]></error>
     <system-out><![CDATA[
 Scenario: Search for Apple brand and add iPhone 16 Pro case in all 3 materials to cart &amp#27;[90m# features/MobileCoverShopping.feature:10&amp#27;[0m
-✅ Navigated to CaseKaro homepage: https://casekaro.com/
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is on the CaseKaro homepage&amp#27;[0m                                           &amp#27;[90m# stepDefinitions.MobileCoverSteps.the_user_is_on_the_casekaro_homepage()&amp#27;[0m
-✅ Navigated to Mobile Covers page
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mobile Covers"&amp#27;[0m&amp#27;[32m menu&amp#27;[0m                                         &amp#27;[90m# stepDefinitions.MobileCoverSteps.the_user_clicks_on_menu(java.lang.String)&amp#27;[0m
-✅ Looking for brand: 'Apple'
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user clicks the search button and types &amp#27;[0m&amp#27;[32m&amp#27;[1m"Apple"&amp#27;[0m                              &amp#27;[90m# stepDefinitions.MobileCoverSteps.the_user_clicks_the_search_button_and_types(java.lang.String)&amp#27;[0m
-ASSERTION PASSED: Apple brand found on page
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32monly Apple brand results should be visible&amp#27;[0m                                      &amp#27;[90m# stepDefinitions.MobileCoverSteps.only_apple_brand_results_should_be_visible()&amp#27;[0m
-✅ ASSERTION PASSED: 'samsung' is NOT in current URL
-✅ ASSERTION PASSED: 'oneplus' is NOT in current URL
-✅ ASSERTION PASSED: 'xiaomi' is NOT in current URL
-✅ ASSERTION PASSED: 'redmi' is NOT in current URL
-✅ ASSERTION PASSED: 'realme' is NOT in current URL
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mno other brand results should be visible&amp#27;[0m                                         &amp#27;[90m# stepDefinitions.MobileCoverSteps.no_other_brand_results_should_be_visible()&amp#27;[0m
-✅ Navigated to iPhone 16 Pro covers: https://casekaro.com/collections/iphone-16-pro-back-covers
-✅ Clicked on 'Apple' brand
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Apple"&amp#27;[0m&amp#27;[32m brand&amp#27;[0m                                                &amp#27;[90m# stepDefinitions.MobileCoverSteps.the_user_clicks_on_brand(java.lang.String)&amp#27;[0m
-✅ Navigated to iPhone 16 Pro page: https://casekaro.com/collections/iphone-16-pro-back-covers
-✅ Searched for model: 'Iphone 16 pro'
-   Current URL: https://casekaro.com/collections/iphone-16-pro-back-covers
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user searches for model &amp#27;[0m&amp#27;[32m&amp#27;[1m"Iphone 16 pro"&amp#27;[0m                                      &amp#27;[90m# stepDefinitions.MobileCoverSteps.the_user_searches_for_model(java.lang.String)&amp#27;[0m
-✅ JS clicked first product, URL: https://casekaro.com/products/classic-porsche-911-iphone-16-pro-back-cover
-✅ Clicked 'Choose options' for first item
-   Product page URL: https://casekaro.com/products/classic-porsche-911-iphone-16-pro-back-cover
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"Choose options"&amp#27;[0m&amp#27;[32m for the first item&amp#27;[0m                              &amp#27;[90m# stepDefinitions.MobileCoverSteps.the_user_clicks_choose_options_for_the_first_item(java.lang.String)&amp#27;[0m
-  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe user adds the &amp#27;[0m&amp#27;[31m&amp#27;[1m"Hard"&amp#27;[0m&amp#27;[31m material case to cart&amp#27;[0m                                   &amp#27;[90m# stepDefinitions.MobileCoverSteps.the_user_adds_the_material_case_to_cart(java.lang.String)&amp#27;[0m
-      &amp#27;[31mcom.microsoft.playwright.TimeoutError: Error {
-  message='Timeout 30000ms exceeded.
-  name='TimeoutError
-  stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\progress.js:78:26)
-    at Frame.click (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\frames.js:1007:23)
-    at FrameDispatcher.click (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\dispatchers\frameDispatcher.js:158:30)
-    at FrameDispatcher._handleCommand (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
-- waiting for locator("label:has-text('Hard'), input[value='Hard'], .variant-pills__option:has-text('Hard'), button:has-text('Hard')").first()
--   locator resolved to <input checked type="radio" value="Hard" name="Material…/>
-- attempting click action
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #1
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #2
--   waiting 20ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #3
--   waiting 100ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #4
--   waiting 100ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #5
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #6
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #7
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #8
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #9
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #10
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #11
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #12
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #13
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #14
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #15
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #16
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #17
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is not stable
-- retrying click action, attempt #18
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #19
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #20
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #21
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #22
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #23
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #24
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #25
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #26
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #27
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
-- element was detached from the DOM, retrying
--   locator resolved to <input checked type="radio" value="Hard" name="Material…/>
-- attempting click action
--   waiting for element to be visible, enabled and stable
--   element is not stable
-- retrying click action, attempt #1
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #2
--   waiting 20ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #3
--   waiting 100ms
--   waiting for element to be visible, enabled and stable
-- element was detached from the DOM, retrying
-
-	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
-	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
-	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
-	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
-	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
-	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
-	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
-	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
-	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:160)
-	at com.microsoft.playwright.Locator.click(Locator.java:2468)
-	at pages.ProductDetailsPage.selectMaterialAndAddToCart(ProductDetailsPage.java:53)
-	at stepDefinitions.MobileCoverSteps.the_user_adds_the_material_case_to_cart(MobileCoverSteps.java:121)
-	at ✽.the user adds the "Hard" material case to cart(classpath:features/MobileCoverShopping.feature:18)
-Caused by: com.microsoft.playwright.TimeoutError: Error {
-  message='Timeout 30000ms exceeded.
-  name='TimeoutError
-  stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\progress.js:78:26)
-    at Frame.click (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\frames.js:1007:23)
-    at FrameDispatcher.click (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\dispatchers\frameDispatcher.js:158:30)
-    at FrameDispatcher._handleCommand (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-14059985404106068603\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
-- waiting for locator("label:has-text('Hard'), input[value='Hard'], .variant-pills__option:has-text('Hard'), button:has-text('Hard')").first()
--   locator resolved to <input checked type="radio" value="Hard" name="Material…/>
-- attempting click action
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #1
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #2
--   waiting 20ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #3
--   waiting 100ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #4
--   waiting 100ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #5
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #6
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #7
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #8
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #9
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #10
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #11
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #12
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #13
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #14
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #15
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #16
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #17
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is not stable
-- retrying click action, attempt #18
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #19
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #20
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #21
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #22
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #23
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #24
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #25
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #26
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #27
--   waiting 500ms
--   waiting for element to be visible, enabled and stable
-- element was detached from the DOM, retrying
--   locator resolved to <input checked type="radio" value="Hard" name="Material…/>
-- attempting click action
--   waiting for element to be visible, enabled and stable
--   element is not stable
-- retrying click action, attempt #1
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #2
--   waiting 20ms
--   waiting for element to be visible, enabled and stable
--   element is visible, enabled and stable
--   scrolling into view if needed
--   done scrolling
--   <fieldset class="js product-form__input product-form__inpu…>…</fieldset> intercepts pointer events
-- retrying click action, attempt #3
--   waiting 100ms
--   waiting for element to be visible, enabled and stable
-- element was detached from the DOM, retrying
-
-	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
-	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
-	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
-	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
-	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
-	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
-	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
-	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
-	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
-	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:160)
-	at com.microsoft.playwright.Locator.click(Locator.java:2468)
-	at pages.ProductDetailsPage.selectMaterialAndAddToCart(ProductDetailsPage.java:53)
-	at stepDefinitions.MobileCoverSteps.the_user_adds_the_material_case_to_cart(MobileCoverSteps.java:121)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:76)
-	at org.junit.platform.suite.engine.SuiteLauncher.execute(SuiteLauncher.java:63)
-	at org.junit.platform.suite.engine.SuiteTestDescriptor.execute(SuiteTestDescriptor.java:128)
-	at org.junit.platform.suite.engine.SuiteTestEngine.lambda$execute$0(SuiteTestEngine.java:73)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632)
-	at org.junit.platform.suite.engine.SuiteTestEngine.execute(SuiteTestEngine.java:73)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user goes back to product options&amp#27;[0m                                            &amp#27;[90m# stepDefinitions.MobileCoverSteps.the_user_goes_back_to_product_options()&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user adds the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Soft"&amp#27;[0m&amp#27;[36m material case to cart&amp#27;[0m                                   &amp#27;[90m# stepDefinitions.MobileCoverSteps.the_user_adds_the_material_case_to_cart(java.lang.String)&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user goes back to product options&amp#27;[0m                                            &amp#27;[90m# stepDefinitions.MobileCoverSteps.the_user_goes_back_to_product_options()&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user adds the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Glass"&amp#27;[0m&amp#27;[36m material case to cart&amp#27;[0m                                  &amp#27;[90m# stepDefinitions.MobileCoverSteps.the_user_adds_the_material_case_to_cart(java.lang.String)&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user opens the cart&amp#27;[0m                                                          &amp#27;[90m# stepDefinitions.MobileCoverSteps.the_user_opens_the_cart()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe cart should contain &amp#27;[0m&amp#27;[36m&amp#27;[1m3&amp#27;[0m&amp#27;[36m items with different materials&amp#27;[0m                        &amp#27;[90m# stepDefinitions.MobileCoverSteps.the_cart_should_contain_items_with_different_materials(int)&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe cart should have items with materials &amp#27;[0m&amp#27;[36m&amp#27;[1m"Hard"&amp#27;[0m&amp#27;[36m, &amp#27;[0m&amp#27;[36m&amp#27;[1m"Soft"&amp#27;[0m&amp#27;[36m, and &amp#27;[0m&amp#27;[36m&amp#27;[1m"Glass"&amp#27;[0m            &amp#27;[90m# stepDefinitions.MobileCoverSteps.the_cart_should_have_items_with_materials(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe price details for all items should be printed in console&amp#27;[0m                     &amp#27;[90m# stepDefinitions.MobileCoverSteps.the_price_details_for_all_items_should_be_printed_in_console()&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mthe user is on the CaseKaro homepage&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks on "Mobile Covers" menu&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the search button and types "Apple"&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36monly Apple brand results should be visible&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mno other brand results should be visible&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks on "Apple" brand&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user searches for model "Iphone 16 pro"&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks "Choose options" for the first item&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user adds the "Hard" material case to cart&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user goes back to product options&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user adds the "Soft" material case to cart&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user goes back to product options&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user adds the "Glass" material case to cart&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user opens the cart&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe cart should contain 3 items with different materials&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe cart should have items with materials "Hard", "Soft", and "Glass"&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe price details for all items should be printed in console&amp#27;[0m
 ]]></system-out>
   </testcase>
 </testsuite>
