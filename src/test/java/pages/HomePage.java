@@ -2,11 +2,13 @@ package pages;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import org.junit.jupiter.api.Assertions;
 
 public class HomePage {
 
     private final Page page;
     private static final String BASE_URL = "https://casekaro.com/";
+    private static final String MODEL_SEARCH_URL = "https://casekaro.com/pages/phone-cases-by-model";
 
     public HomePage(Page page) {
         this.page = page;
@@ -15,42 +17,31 @@ public class HomePage {
     public void navigateToHomePage() {
         page.navigate(BASE_URL);
         page.waitForLoadState();
+        Assertions.assertTrue(page.url().contains("casekaro.com"), "Should be on CaseKaro website");
+        System.out.println("✅ Navigated to: " + page.url());
     }
 
     public void clickMobileCovers() {
-        // Direct navigation to mobile covers page
-        page.navigate("https://casekaro.com/pages/phone-cases-by-model");
-        page.waitForLoadState();
-        page.waitForTimeout(1000);
-    }
-
-    public void clickSearchButton() {
-        // Search button click - use JavaScript to open search modal
-        page.evaluate("document.querySelector('.search-modal__open-button, button[aria-label=\"Search\"]').click()");
-        page.waitForTimeout(1500);
-    }
-
-    public void typeInSearch(String query) {
-        // Type directly into search input using JavaScript
-        page.evaluate("var inputs = document.querySelectorAll('input[name=\"q\"]'); " +
-                "for(var i=0; i<inputs.length; i++) { " +
-                "  if(inputs[i].offsetParent !== null) { inputs[i].focus(); break; } " +
-                "}");
-        page.waitForTimeout(500);
-
-        // Try all possible visible inputs
-        Locator allInputs = page.locator("input[name='q']");
-        int count = allInputs.count();
-        for (int i = 0; i < count; i++) {
-            Locator input = allInputs.nth(i);
-            if (input.isVisible()) {
-                input.fill(query);
-                page.waitForTimeout(1000);
-                return;
-            }
+        // Click "Mobile Covers" in the nav menu
+        Locator mobileCoversLink = page.locator("a:has-text('Mobile Covers'), a[href*='phone-cases-by-model']").first();
+        if (mobileCoversLink.count() > 0 && mobileCoversLink.isVisible()) {
+            mobileCoversLink.click();
+            page.waitForLoadState();
+        } else {
+            // Fallback: direct navigation
+            page.navigate(MODEL_SEARCH_URL);
+            page.waitForLoadState();
         }
-        // Last resort - type via keyboard after JS focus
-        page.keyboard().type(query);
-        page.waitForTimeout(1000);
+        page.waitForTimeout(1500);
+        System.out.println("✅ On Mobile Covers page: " + page.url());
+    }
+
+    public void searchBrandInModelSearch(String brand) {
+        // Use the search box on phone-cases-by-model page
+        Locator searchBox = page.locator("input[placeholder*='Search'], input[type='search'], input[type='text']").first();
+        searchBox.waitFor();
+        searchBox.fill(brand);
+        page.waitForTimeout(2000);
+        System.out.println("✅ Searched for brand: " + brand);
     }
 }

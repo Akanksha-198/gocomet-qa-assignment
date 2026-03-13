@@ -2,6 +2,7 @@ package pages;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import org.junit.jupiter.api.Assertions;
 
 public class ProductListingPage {
 
@@ -11,24 +12,32 @@ public class ProductListingPage {
         this.page = page;
     }
 
-    public void searchForModel(String model) {
-        page.navigate("https://casekaro.com/collections/iphone-16-pro-back-covers");
-        page.waitForLoadState();
-        page.waitForTimeout(3000);
-        System.out.println("✅ Navigated to iPhone 16 Pro page: " + page.url());
+    public void verifyOnIphone16ProListingPage() {
+        Assertions.assertTrue(page.url().contains("iphone-16-pro"),
+            "Should be on iPhone 16 Pro listing page");
+        System.out.println("✅ Confirmed on iPhone 16 Pro listing page: " + page.url());
     }
 
     public void clickChooseOptionsForFirstItem() {
         page.waitForTimeout(2000);
 
-        // Try multiple selectors to find first product link
+        // Try "Choose options" button first (explicit CTA)
+        Locator chooseOptions = page.locator("a:has-text('Choose options')").first();
+        if (chooseOptions.count() > 0 && chooseOptions.isVisible()) {
+            System.out.println("✅ Clicking 'Choose options' button");
+            chooseOptions.click();
+            page.waitForLoadState();
+            page.waitForTimeout(1500);
+            System.out.println("✅ Product page URL: " + page.url());
+            return;
+        }
+
+        // Fallback: click first product card heading/link
         String[] selectors = {
-            "a:has-text('Choose options')",
             ".card__heading a",
             "h3.card__heading a",
             ".card__information a",
             "a.full-unstyled-link",
-            ".product-card a",
             "li.grid__item a",
             "ul.product-grid li a"
         };
@@ -45,7 +54,7 @@ public class ProductListingPage {
             }
         }
 
-        // Last resort: JavaScript click on first product image/link
+        // Last resort: JavaScript
         page.evaluate("document.querySelector('ul.product-grid li a, .grid__item a, .card a').click()");
         page.waitForLoadState();
         page.waitForTimeout(1500);
