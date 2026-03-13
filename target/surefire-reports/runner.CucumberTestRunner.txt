@@ -1,0 +1,85 @@
+-------------------------------------------------------------------------------
+Test set: runner.CucumberTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 60.58 s <<< FAILURE! -- in runner.CucumberTestRunner
+Mobile Cover Shopping on CaseKaro.Search for Apple brand and add iPhone 16 Pro case in all 3 materials to cart -- Time elapsed: 58.59 s <<< ERROR!
+com.microsoft.playwright.impl.TargetClosedError: 
+Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-16793804766727509054\package\lib\utils\stackTrace.js:49:17)
+    at LongStandingScope._race (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-16793804766727509054\package\lib\utils\manualPromise.js:91:52)
+    at LongStandingScope.race (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-16793804766727509054\package\lib\utils\manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-16793804766727509054\package\lib\server\dispatchers\dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-16793804766727509054\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- navigating to "https://casekaro.com/collections/iphone-16-pro-back-covers", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at pages.ProductListingPage.searchForModel(ProductListingPage.java:15)
+	at stepDefinitions.MobileCoverSteps.the_user_searches_for_model(MobileCoverSteps.java:103)
+	at ✽.the user searches for model "Iphone 16 pro"(classpath:features/MobileCoverShopping.feature:16)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-16793804766727509054\package\lib\utils\stackTrace.js:49:17)
+    at LongStandingScope._race (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-16793804766727509054\package\lib\utils\manualPromise.js:91:52)
+    at LongStandingScope.race (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-16793804766727509054\package\lib\utils\manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-16793804766727509054\package\lib\server\dispatchers\dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (C:\Users\Akanksha\AppData\Local\Temp\playwright-java-16793804766727509054\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- navigating to "https://casekaro.com/collections/iphone-16-pro-back-covers", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$46(PageImpl.java:927)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:927)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5530)
+	at pages.ProductListingPage.searchForModel(ProductListingPage.java:15)
+	at stepDefinitions.MobileCoverSteps.the_user_searches_for_model(MobileCoverSteps.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
